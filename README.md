@@ -8,6 +8,7 @@ A YouTube-inspired website built with HTML, CSS, and Bootstrap.
 - Watch
 - Shorts
 - Profile
+- Upload
 
 ## Screenshots
 
