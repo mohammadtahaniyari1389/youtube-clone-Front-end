@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(../font/YekanBakhFaNum-SemiBold.woff2);
+}
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'myFont';
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.upload-box {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #181818;
+    padding: 25px;
+    border-radius: 14px;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.5s ease;
+}
+.upload-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+}
+input, textarea, select {
+    background-color: #121212 !important;
+    border: 1px solid #333 !important;
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #ff0000 !important;
+    box-shadow: 0 0 0 3px rgba(255,0,0,0.15) !important;
+    transform: scale(1.01);
+}
+/* پیش نمایش */
+.preview-box {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: #000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff0000;
+    font-size: 16px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+.preview-box:hover {
+    transform: scale(1.02);
+    filter: brightness(1.2);
+}
+.btn-upload {
+    background-color: #cc0000;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btn-upload:hover {
+    background-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255,0,0,0.25);
+}

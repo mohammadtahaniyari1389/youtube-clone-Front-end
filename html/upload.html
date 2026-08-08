@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1.0,minimum scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>upload video|My Tube</title>
+    <link rel="icon" type="image/png" href="../img/725379.png">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../style/upload.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+</head>
+<body>
+<!-- navbar -->
+    <nav class="navbar navbar-dark fixed-top px-3">
+  <div class="d-flex align-items-center">
+    <button class="btn text-light d-lg-none me-2">
+        <i class="bi bi-list"></i>
+    </button>
+    <span class="fw-bold">
+      <a href="#"><i class="bi bi-play-btn-fill text-danger margin-l icon"></i><span class="text-size text-light">MyTube</span></a>
+    </span>
+  </div>
+  <form action="" class="d-none d-md-flex w-50">
+      <input class="form-control search-box rounded-start-pill" type="search" placeholder="جستجو">
+      <button class="btn btn-dark rounded-end-pill">
+        <i class="bi bi-search"></i>
+      </button>
+  </form>
+  <div class="d-flex align-items-center ml-5">
+      <a href="#"><i class="bi bi-bell text-light mx-2"></i></a>
+      <a href="../index.html"><i class="bi bi-box-arrow-in-left mx-2 text-light"></i></a>
+  </div>
+</nav>
+<!-- main -->
+<div> 
+    <div class="upload-box">
+        <h3 class="mb-4">آپلود ویدیو</h3>
+        <!-- پیش نمایش -->
+        <div class="preview-box mb-3">
+            پیش‌نمایش ویدیو
+        </div>
+
+        <input type="file" class="form-control mb-3">
+
+        <input type="text" class="form-control mb-3" placeholder="عنوان ویدیو">
+
+        <input type="text" class="form-control mb-3" placeholder="ایدی چنل">
+
+        <textarea class="form-control mb-3" rows="4" placeholder="توضیحات ویدیو"></textarea>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                complite video
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                short video
+                <!--اگه شرت ویدیو انتخاب شد باید پیش نمایش هم مانند شرت ویدیو شود -->
+            </label>
+        </div>
+
+        <select class="form-control mb-3 mt-2">
+            <option>دسته‌بندی را انتخاب کنید</option>
+            <option>گیمینگ</option>
+            <option>موسیقی</option>
+            <option>فیلم</option>
+            <option>برنامه‌نویسی</option>
+            <option>ورزش</option>
+            <!-- ..... -->
+        </select>
+
+    <button class="btn btn-upload w-100 py-2">انتشار ویدیو</button>
+
+</div>
+</div>
+    
+</body>
+</html>

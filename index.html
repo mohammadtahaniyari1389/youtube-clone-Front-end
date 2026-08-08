@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1.0,minimum scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>MyTube</title>
+    <link rel="icon" type="image/png" href="img/725379.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-dark fixed-top px-3">
+  <div class="d-flex align-items-center">
+    <button class="btn text-light d-lg-none me-2">
+        <i class="bi bi-list"></i>
+    </button>
+    <span class="fw-bold">
+      <a href="#"><i class="bi bi-play-btn-fill text-danger margin-l icon"></i><span class="text-size text-light">MyTube</span></a>
+    </span>
+  </div>
+  <form action="" class="d-none d-md-flex w-50">
+      <input class="form-control search-box rounded-start-pill" type="search" placeholder="جستجو">
+      <button class="btn btn-dark rounded-end-pill">
+        <i class="bi bi-search"></i>
+      </button>
+  </form>
+  <div class="d-flex align-items-center ml-5">
+      <a href="html/upload.html"><i class="bi bi-camera-video text-light mx-2"></i></a>
+      <a href="#"><i class="bi bi-bell text-light mx-2"></i></a>
+  </div>
+</nav>
+<!-- main -->
+<div class="mt-5">
+
+  <div class="app-wrapper">
+    <!-- sidebar -->
+        <div class="sidebar-desktop d-none d-lg-block">
+          <a href="html/login.html" target="_blank"><i class="bi bi-box-arrow-in-right"></i>ورود/ثبت نام</a>
+          <a href="index.html"><i class="bi bi-house-door-fill"></i>خانه</a>
+          <a href="html/login.html" target="_blank"><i class="bi bi-person-circle"></i>پروفایل</a>
+          <a href="html/login.html" target="_blank"><i class="bi bi-camera-video"></i>اپلود ویدیو</a>
+          <a href="#"><i class="bi bi-compass"></i>کاوش</a>
+          <a href="#"><i class="bi bi-collection-play"></i>اشتراک‌ها</a>
+          <hr class="border-secondary">
+          <a href="#"><i class="bi bi-controller"></i>گیمینگ</a>
+          <a href="#"><i class="bi bi-music-note-beamed"></i>موسیقی</a>
+          <a href="#"><i class="bi bi-film"></i>فیلم</a>
+          <a href="#"><i class="bi bi-code-slash"></i>برنامه‌نویسی</a>
+      </div>
+        <div class="main-content">
+          <div class="container-fluid">
+            <div class="tags-row mb-3">
+              <span class="tag-pill">همه</span>
+              <span class="tag-pill">گیمینگ</span>
+              <span class="tag-pill">موسیقی</span>
+              <span class="tag-pill">برنامه‌نویسی</span>
+              <span class="tag-pill">فیلم</span>
+            </div>
+<!-- videos -->
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">FE</div>
+                            <div>
+                                <div class="video-title">آموزش ساخت کلون یوتیوب</div>
+                                <div class="color">Frontend Lab</div>
+                                <div class="color">۱۲۳هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">GM</div>
+                            <div>
+                                <div class="video-title">گیم‌پلی جذاب</div>
+                                <div class="color">Gamer Pro</div>
+                                <div class="color">۴۵۰هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">MU</div>
+                            <div>
+                                <div class="video-title">پلی‌لیست تمرکز</div>
+                                <div class="color">Music Lab</div>
+                                <div class="color">۹۸هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item" data-tag="movie">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">MV</div>
+                            <div>
+                                <div class="video-title">تحلیل فیلم</div>
+                                <div class="color">Movie Talk</div>
+                                <div class="color">۷۵هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- short -->
+            <h5 class="shorts-title mt-5 mb-3">
+                <i class="bi bi-lightning-charge-fill text-danger"></i> Shorts
+            </h5>
+
+            <div class="row g-3">
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="shorts-card" onclick="location.href='shorts.html'">
+                        <div class="shorts-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <p class="mt-2 mb-0">کلیپ خنده‌دار</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="shorts-card" onclick="location.href='shorts.html'">
+                        <div class="shorts-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <p class="mt-2 mb-0">ترفند برنامه‌نویسی</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="shorts-card" onclick="location.href='shorts.html'">
+                        <div class="shorts-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <p class="mt-2 mb-0">گیم‌پلی کوتاه</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="shorts-card" onclick="location.href='shorts.html'">
+                        <div class="shorts-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <p class="mt-2 mb-0">موزیک کوتاه</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="shorts-card" onclick="location.href='shorts.html'">
+                        <div class="shorts-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <p class="mt-2 mb-0">موزیک کوتاه</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- video -->
+          <div class="row g-3 mt-5">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">FE</div>
+                            <div>
+                                <div class="video-title">آموزش ساخت کلون یوتیوب</div>
+                                <div class="color">Frontend Lab</div>
+                                <div class="color">۱۲۳هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">GM</div>
+                            <div>
+                                <div class="video-title">گیم‌پلی جذاب</div>
+                                <div class="color">Gamer Pro</div>
+                                <div class="color">۴۵۰هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">MU</div>
+                            <div>
+                                <div class="video-title">پلی‌لیست تمرکز</div>
+                                <div class="color">Music Lab</div>
+                                <div class="color">۹۸هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 video-item" data-tag="movie">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="video-thumb">
+                          <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="channel-avatar">MV</div>
+                            <div>
+                                <div class="video-title">تحلیل فیلم</div>
+                                <div class="color">Movie Talk</div>
+                                <div class="color">۷۵هزار بازدید</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer class="py-3 my-4">
+              <p class="text-center text-light border-top ">© 2025 Company, Inc</p> 
+            </footer>
+        </div> 
+    </div>
+</div>
+    
+
+
+    <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

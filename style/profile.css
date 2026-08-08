@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(../font/YekanBakhFaNum-SemiBold.woff2);
+}
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'myFont';
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.page-wrapper-p {
+    margin-top: 70px;
+}
+.channel-cover {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    margin-top: 70px;
+    background: linear-gradient(135deg, #ff0000, #3b3b3b);
+}
+.channel-avatar-big {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* stat-card */
+.stat-card {
+    background: #181818;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+.stat-label {
+    font-size: 14PX;
+    color: #aaa;
+}
+.stat-value {
+    font-size: 18px;
+    font-weight: 600;
+}
+/* tabs */
+.nav-tabs .nav-link {
+    color: #aaa;
+    border: none;
+}
+.nav-tabs .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #ff0000;
+    background: transparent;
+}
+/* video-card */
+.video-card {
+    background: #181818;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.video-title {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+/* about */
+.about-box {
+    background: #181818;
+    border-radius: 10px;
+    padding: 15px;
+}
+/* btn style */
+.btn-subscribe {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 999px;
+}
+.btn-subscribe:hover {
+    background-color: #e00000;
+}

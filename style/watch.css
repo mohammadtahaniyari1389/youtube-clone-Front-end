@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(../font/YekanBakhFaNum-SemiBold.woff2);
+}
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'myFont';
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.page-wrapper {
+    padding-top: 56px;
+}
+/* Video player */
+.video-player {
+    width: 100%;
+    aspect-ratio: 14/7;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.btn-subscribe {
+    background-color: #cc0000;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.btn-subscribe:hover {
+    background-color: #ff0000;
+}
+.action-btn {
+    background-color: #272727;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+.action-btn:hover {
+    background-color: #3a3a3a;
+}
+.desc-box {
+    background-color: #181818;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 15px;
+}
+/* Comments */
+.comment-input {
+    background-color: #121212;
+    border: 1px solid #303030;
+    color: #fff;
+}
+.comment-input:focus {
+    border-color: #3ea6ff;
+    box-shadow: none;
+}
+.comment-item {
+    font-size: 15px;
+}
+.comment-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 8px;
+}
+/* Suggested videos */
+.suggest-card {
+    display: flex;
+    cursor: pointer;
+}
+.suggest-thumb {
+    width: 40%;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #444, #111);
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.suggest-info {
+    margin-right: 8px;
+}
+.suggest-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+.suggest-meta {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.margin-t{
+    margin-top: 100px;
+}

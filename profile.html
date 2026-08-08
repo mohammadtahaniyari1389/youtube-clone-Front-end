@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile | My Tube</title>
+    <link rel="icon" type="image/png" href="../img/725379.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/profile.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-dark fixed-top px-3">
+  <div class="d-flex align-items-center">
+    <button class="btn text-light d-lg-none me-2">
+        <i class="bi bi-list"></i>
+    </button>
+    <span class="fw-bold">
+      <a href="#"><i class="bi bi-play-btn-fill text-danger margin-l icon"></i><span class="text-size text-light">MyTube</span></a>
+    </span>
+  </div>
+  <form action="" class="d-none d-md-flex w-50">
+      <input class="form-control search-box rounded-start-pill" type="search" placeholder="جستجو">
+      <button class="btn btn-dark rounded-end-pill">
+        <i class="bi bi-search"></i>
+      </button>
+  </form>
+  <div class="d-flex align-items-center ml-5">
+      <a href="../html/upload.html"><i class="bi bi-camera-video text-light mx-2"></i></a>
+      <a href="index.html"><i class="bi bi-box-arrow-in-left mx-2 text-light"></i></a>
+  </div>
+</nav>
+<!-- main -->
+<div class="psge-wrapper-p margin-t">
+    <div class="container-fluid">
+        <!-- channel-caver -->
+        <div class="channel-cover mb-3"></div>
+        
+        <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between mb-4">
+            <div class="d-flex align-items-center mb-3 mb-md-0">
+                <div class="channel-avatar-big me-3">MT</div>
+                <div>
+                    <h4>کانال تست</h4>
+                    <p class="mb-1 text-secondary">@mytube_test</p>
+                    <p class="mb-0 text-secondary">1.2M مشترک • 35 ویدیو • مجموع بازدید: 12.5M</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-subscribe px-3">اشتراک</button>
+                <button class="btn btn-sm btn-outline-light">
+                    <i class="bi bi-bell"></i>نوتیفیکیشن
+                </button>
+            </div>
+        </div>
+        <!-- atat -->
+        <div class="row g-3 mb-4">
+            <div class="col-6 col-md-3">
+                <div class="stat-card">
+                    <div class="stat-label">مشترکین</div>
+                    <div class="stat-value">1.5M</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card">
+                    <div class="stat-label">مجموع بازدید</div>
+                    <div class="stat-value">12.5M</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card">
+                    <div class="stat-label">ویدیو ها</div>
+                    <div class="stat-value">35</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-card">
+                    <div class="stat-label">فالویینگ ها</div>
+                    <div class="stat-value">128</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- items -->
+    <ul class="nav nav-tabs mb-3">
+        <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#videos">ویدیو ها</button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#about">درباره</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mb-4">
+        <div class="tab-pane fade show active" id="videos">
+            <div class="row g-3">
+                <!-- video card -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="video-card" onclick="location.href='watch.html'">
+                        <div class="thumb-wrapper">
+                            <img class="video-img" src="img/creative-youtube-thumbnail-design-template-Top.jpg" alt="">
+                        </div>
+                        <div class="p-2">
+                            <div class="video-title">اموزش کامل html css js</div>
+                            <div class="video-meta text-secondary">320 هزار بازدید . 3 روز پیش</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about-part -->
+        <div class="tab-pane fade" id="about">
+            <div class="about-box">
+                <h6 class="mb-2">درباره کانال</h6>
+                <p class="mb-2">
+                 این کانال برای آموزش فرانت‌اند، پروژه‌های تمرینی ساخته شده است.
+                </p>
+                <p class="text-secondary mb-1">
+                 تاریخ ایجاد: ۱۴۰۳/۰۱/۱۵
+                </p>
+                <p class="text-secondary mb-0">
+                 ایمیل همکاری: example@mail.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="py-3 my-4">
+        <p class="text-center text-light border-top ">© 2025 Company, Inc</p> 
+    </footer>
+</div>
+    
+
+
+
+<script src="../bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
